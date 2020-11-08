@@ -1,0 +1,18 @@
+{
+  "name": "mock-json-server",
+  "version": "1.0.0",
+  "description": "mock-json-server",
+  "main": "generator.js",
+  "scripts": {
+    "start": "json-server --watch data.json --port 6451",
+    "test": "test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "json-server": "^0.16.2",
+    "shortid": "^2.2.16",
+    "axios": "0.21.0"
+  }
+}
