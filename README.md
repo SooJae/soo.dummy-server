@@ -22,7 +22,8 @@ index.js에 더미 샘플 값이 있습니다.
 $ node index.js  // 더미데이터가 들어있는 data.json 생성
 $ npm start // json-server 실행
 ``` 
- 
+
+기본 json-server 주소: [http://localhost:6451](http://localhost:6451)
 
 ## 데이터 모델 생성 
 ### 모델 예시
@@ -69,7 +70,6 @@ generator(user, 3, 'user');
 ```
 
 ## 데이터 호출
-
 ![get-post](./readme/get-post.png)
 
 GET 외에 더 많은 API 메소드와 옵션은 [json-server API](https://github.com/typicode/json-server) 에서 확인 할 수 있습니다.
